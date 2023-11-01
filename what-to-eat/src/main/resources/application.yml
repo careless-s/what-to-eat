@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://bj-cynosdbmysql-grp-9jcfijv8.sql.tencentcdb.com:21559/chinese_poetry?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://bj-cynosdbmysql-grp-9jcfijv8.sql.tencentcdb.com:21559/what_to_eat?useUnicode=true&characterEncoding=UTF-8
     username: root
     password: cod..tsl..M200
 
