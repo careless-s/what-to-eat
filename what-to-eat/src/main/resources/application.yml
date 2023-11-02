@@ -5,10 +5,18 @@ spring:
     username: root
     password: cod..tsl..M200
 
+  graphql:
+    cors:
+      allowed-origins: "*"
+      allowed-methods: "GET,POST,PUT,DELETE,OPTIONS"
+      allowed-headers: "*"
+      allow-credentials: true
+
+
 #mybatis-plus 设置
 mybatis-plus:
   # xml扫描，多个目录用逗号或者分号分隔（告诉 Mapper 所对应的 XML 文件位置）
-  mapper-locations: classpath*:com/careless/chinesepoetrytodatabase/**/xml/*Mapper.xml
+  mapper-locations: classpath*:com/careless/whattoeat/**/xml/*Mapper.xml
   global-config:
     # 关闭MP3.0自带的banner
     banner: false
